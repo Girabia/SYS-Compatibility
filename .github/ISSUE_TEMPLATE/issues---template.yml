@@ -1,21 +1,33 @@
----
 name: Issues - Template
-about: " Template for filling out issues"
-title: ''
-labels: ''
-assignees: Girabia
-
----
-
-# Check List
-- [ ] I agree that I have read the [rules](https://github.com/Girabia/SYS-Compatibility/blob/main/Rules.md) about posting issues
-- [ ] I accept the appropriate punishments if the [rules](https://github.com/Girabia/SYS-Compatibility/blob/main/Rules.md) are not followed
-
-## Specifications
-
-- System Operational:
-- CPU:
-- GPU:
-- RAM:
-
-### Additional comments
+description: Template for filling out issues
+body:
+  - type: checkboxes
+    attributes:
+      label: Check List
+      options:
+      - label: I agree that I have read the [rules](https://github.com/Girabia/SYS-Compatibility/blob/main/Rules.md) about posting issues
+        required: true
+      - label: I accept the appropriate punishments if the [rules](https://github.com/Girabia/SYS-Compatibility/blob/main/Rules.md) are not followed
+        required: true
+  - type: textarea
+    id: Specifications
+    attributes:
+      label: Specifications
+      placeholder: |
+        System Operational: Windows 11
+        CPU: Ryzen 5 5600 / I5-13400F
+        GPU: GTX 3060
+        RAM: 32GB
+      value: |
+        System Operational:
+        CPU:
+        GPU:
+        RAM:
+    validations:
+      required: true
+  - type: textarea
+    id: Additional comments
+    attributes:
+      label: Additional comments
+    validations:
+      required: false
