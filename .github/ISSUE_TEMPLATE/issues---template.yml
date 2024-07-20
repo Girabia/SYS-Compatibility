@@ -10,7 +10,7 @@ body:
       - label: I accept the appropriate punishments if the [rules](https://github.com/Girabia/SYS-Compatibility/blob/main/Rules.md) are not followed
         required: true
   - type: textarea
-    id: Specifications
+    id: specifications
     attributes:
       label: Specifications
       placeholder: |
@@ -26,7 +26,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Additional comments
+    id: additional-comments
     attributes:
       label: Additional comments
     validations:
