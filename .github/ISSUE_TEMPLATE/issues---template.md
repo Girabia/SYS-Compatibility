@@ -17,6 +17,5 @@ assignees: Girabia
 - CPU:
 - GPU:
 - RAM:
-- Engine Used:
 
 ### Additional comments
