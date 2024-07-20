@@ -11,8 +11,6 @@ body:
         required: true
   - type: textarea
     id: specifications
-    height: 200px
-    width: 300px
     attributes:
       label: Specifications
       placeholder: |
