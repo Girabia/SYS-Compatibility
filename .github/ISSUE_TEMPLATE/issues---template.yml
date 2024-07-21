@@ -41,7 +41,7 @@ body:
       required: true
   - type: dropdown
     id: engine
-    attributes: engine
+    attributes:
       label: What engine is used?
       options:
         - --Select One--
