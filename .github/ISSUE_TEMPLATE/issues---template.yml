@@ -25,6 +25,30 @@ body:
         RAM:
     validations:
       required: true
+  - type: dropdown
+    id: rating
+    attributes: how is it running
+      label: How is it running?
+      options:
+        - --Select One--
+        - Perfect
+        - Great
+        - Ok
+        - Bad
+        - Intro/Menu
+        - Won't Boot
+    validations:
+      required: true
+  - type: dropdown
+    id: rating
+    attributes: engine
+      label: What engine is used?
+      options:
+        - --Select One--
+        - Vulkan
+        - OpenGL
+    validations:
+      required: true
   - type: textarea
     id: additional-comments
     attributes:
