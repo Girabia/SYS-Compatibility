@@ -27,7 +27,7 @@ body:
       required: true
   - type: dropdown
     id: runnig
-    attributes: how is it running
+    attributes:
       label: How is it running?
       options:
         - --Select One--
