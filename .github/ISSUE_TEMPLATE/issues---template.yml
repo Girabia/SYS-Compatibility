@@ -26,7 +26,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: rating
+    id: runnig
     attributes: how is it running
       label: How is it running?
       options:
@@ -40,7 +40,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: rating
+    id: engine
     attributes: engine
       label: What engine is used?
       options:
