@@ -18,11 +18,13 @@ body:
         CPU: Ryzen 5 5600 / I5-13400F
         GPU: GTX 3060
         RAM: 32GB
+        Firmware: 17
       value: |
         Operational System:
         CPU:
         GPU:
         RAM:
+        Firmware:
     validations:
       required: true
   - type: dropdown
